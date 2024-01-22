@@ -1,0 +1,14 @@
+<app-menu-title></app-menu-title>
+<div class="articles">
+    <div class="articles__main">
+        <app-main-card-news 
+             imageCover="https://i0.wp.com/quartelgeneral.com/wp-content/uploads/2023/03/Ben-Affleck-Batman.jpg?w=2000&ssl=1"
+             cardTitle="The Batman  - O Filme de Ben Affleck cancelado" 
+             cardResume="Veja o plot do filme do Batman que nunca saiu do papel ..."
+             Id="1">
+        </app-main-card-news>
+    </div>
+    <div class="articles__secondary" >
+       <app-secondary-card-news *ngFor="let news of secondaryNewList" Id={{news.id}} imageCover={{news.imageCover}} cardTitle={{news.title}}></app-secondary-card-news>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+.container__secondary-card{
+  
+    width          : 700px;     
+    border-radius  : 2%;
+    margin-bottom  : 10px;
+}
+
+.container__secondary-card-content{
+    
+    display        : flex;
+    flex-direction : row;
+}
+
+.secondary-card__image > img{
+    
+    width        : 200px;
+    min-width    : 200px;
+    margin-right : 20px;
+}
+
+.secondary-card__resume {
+
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+
+    color: rgb(65, 157, 65);
+}
+
+.secondary-card__resume > p >a{
+    
+    color: rgb(65, 157, 65);
+}
+
+.secondary-card__resume > p> a :visited{
+
+    color: rgb(65, 157, 65);
+}
+
+.container__secondary-card-separator{
+ 
+    margin-top: 10px;
+}
